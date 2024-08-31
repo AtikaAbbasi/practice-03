@@ -1,0 +1,365 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: rgb(255, 228, 220);
+}
+.navbar{
+    /* background-color: rgb(220, 203, 203); */
+    backdrop-filter: blur(10px);
+    font-size: 1.3em;
+    font-weight: bold;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+   z-index: 50;
+  
+   /* box-shadow: 10px 10px 15px rgb(169, 169, 169); */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    
+.an:hover{
+   background-color: rgb(177, 249, 240);
+   height: 45px;
+   border-radius: 30px;
+   text-align: center;
+
+}
+
+.span2{
+    font-size: 1.5em;
+    color: rgb(65, 2, 65);
+}
+
+.gif{
+     
+      margin-top: 5em;
+      max-width: 100%;
+      padding-top: 5em;
+    padding-bottom: 5em;
+    background-repeat: no-repeat;
+    background-size: cover ;
+     background-image: url(https://static.vecteezy.com/system/resources/previews/027/101/025/large_2x/donuts-with-sprinkles-on-a-pink-background-representing-a-concept-of-sugar-calories-and-homemade-free-photo.jpg);
+
+
+}
+
+.head{
+   padding-top: 2em;
+    margin-left: 2em;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para{
+    margin-left: 2em;
+    font-weight: bold;
+
+}
+
+.span1{
+    background-color: white;
+}
+
+.buttn{
+    width: 135px;
+    height: 40px;
+    margin-left: 5em;
+  margin-top: 1.3em;
+  font-weight: bold;
+  background-color: rgb(43, 54, 112);
+  ;
+}
+
+.part2{
+         background-image: url(https://i.pinimg.com/originals/39/36/64/3936643d7f3c71b1bd4684762bdcafe6.gif); 
+        padding-bottom: 30em;
+        margin-top: 1em;
+        padding-top: 2em;
+         max-width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover ;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+}
+
+.bun{
+    margin-left: -0;
+}
+
+.part3{
+    
+ padding: 1em;
+    max-width: 100%;
+    background-color:rgb(239, 201, 192) ;
+    margin-top: 1em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+
+.child{
+    height: 300px;
+    width: 200px;
+   border: 1px double black;
+    border-radius: 7px;
+    padding: 0.7em;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.imgg{
+    height: 91px;
+    width: 99px;
+    
+}
+
+.imeg{
+    height: 100px;
+    width: 155px;
+}
+
+
+
+.para3{
+    text-align: center;
+}
+
+.bttn{
+    background-color: rgb(236, 236, 167);
+    color: black;
+    font-weight: bold;
+    border: none;
+}
+
+.part4{
+    padding: 3em;
+    background-color:rgb(243, 177, 189) ;
+    margin-top: 1em;
+    border-radius: 15px;
+    padding-top: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.paraa{
+    margin-left: 2em;
+    margin-top: 3em;
+    font-weight: bold;
+}
+
+.fa{
+    font-size: 1.4em;
+}
+
+/* .sec02{
+    display: flex
+} */
+
+.imgge{
+    width: 550px;
+    height: 320px;
+    margin-top: 4em;
+    border-radius: 13px;
+
+}
+
+.part5{
+    background-color:rgb(243, 221, 218) ;
+    margin-top: 1em;
+    padding-bottom: 3em;
+    border-radius: 14px;
+
+  
+   
+}
+
+.disse{
+    display: flex;
+    flex-direction: column;
+ align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.emma{
+    height: 47px;
+    margin-top: 3em;
+    width: 500px;
+    border-radius: 18px;
+    border: none;
+   margin-bottom: 1em;
+
+}
+
+.part6{
+    background-color: rgb(232, 237, 235);
+    padding-bottom: 3em;
+    /* display: flex; */
+    margin-top: 1em;
+}
+
+.dissse{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+.src{
+    border-radius: 10px;
+    margin-top: 3em;
+    width: 561px;
+    height: 277px;
+    margin-left: 2em;
+}
+
+.da{
+    margin-top: 4em;
+}
+
+.secbttm{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+
+}
+
+.buttno{
+    width: 188px;
+    margin-top: 5em;
+    /* margin-left: 5em; */
+    background-color: rgb(218, 142, 167);
+    border-radius: 13px;
+    border: none;
+  
+
+}
+
+.part7{
+    border: 1px  solid rgb(94, 104, 220);
+    margin-top: 1em;
+}
+
+
+.footerone{
+    background-color: rgb(72, 150, 164);
+   padding-bottom: 3em;
+   margin-top: 2em;
+   color: white;
+   
+}
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+    padding-top: 7em;
+}
+
+.cooki{
+    width: 177px;
+    margin-top: 2em;
+    height: 41px;
+    border-radius: 8px;
+    background-color: rgba(127, 255, 212, 0.135);
+   
+}
+
+.cookii{
+    width: 100px;
+    margin-top: 2em;
+    height: 41px;
+    border-radius: 8px;
+    background-color: rgb(223, 138, 166);
+    color: rgb(241, 231, 231);
+   
+}
+
+.brand{
+    font-size: 1.6em;
+   margin-top: 1em;
+}
+
+.brand:hover{
+    color:rgb(243, 177, 189) ;
+}
+
+
+.footer2{
+  height: 55px;
+  width: 99%;
+  background-color:rgb(243, 177, 189) ;
+    border-radius: 20px;
+    margin-top: 2em;
+  
+    font-weight: bold;
+}
+
+.type{
+    text-align: center;
+    /* color: white; */
+   padding-top: 1em;
+   font-weight: bold;
+}
+
+
+
+/* mediaqueres */
+
+@media (max-width:657px){
+    .imgge{
+        width: 300px;
+    }
+}
+
+@media (max-width:567px){
+    .emma{
+        width: 200px;
+    }
+}
+
+@media (max-width:416px){
+    .imgge{
+        width: 200px;
+    }
+}
+
+
+@media (max-width:390px){
+    .src{
+        width: 200px;
+    }
+}
+
+@media (max-width:290px){
+    .imgge{
+        width: 140px;
+        margin-left: -0.2em;
+    }
+}
